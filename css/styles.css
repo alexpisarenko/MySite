@@ -1,16 +1,39 @@
-.centerText {
-    text-align: center;
-    justify-content: center;
-}
-
-.heading {
-    background-color: #E4F9F5;
-}
-
 body {
     margin: 0;
+    text-align: center;
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+}
+
+.topContainer {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middleContainer {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.bottomContainer {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+.topCloud {
+    position: absolute;
+    top: 50px;
+    right: 500px;
 }
