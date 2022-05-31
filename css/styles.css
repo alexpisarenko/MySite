@@ -29,11 +29,7 @@ p {
     line-height: 2;
 }
 
-a {
-    color: #11999E;
-    font-size: 16px;
-    text-decoration: none;
-}
+
 
 .footer-link {
     color: #11999E;
@@ -43,7 +39,6 @@ a {
 }
 
 .footer-link:hover {
-    text-decoration: underline;
     color: #EAF6F6;
 }
 
